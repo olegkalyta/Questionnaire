@@ -1,0 +1,25 @@
+{
+  "name": "questionnaire",
+  "version": "1.0.0",
+  "description": "Educational project for newbies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js"
+  },
+  "author": "Oleg Kalyta",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "6.1.2",
+    "eslint": "3.2.2",
+    "eslint-config-airbnb": "10.0.0",
+    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-flow": "0.0.0",
+    "eslint-plugin-flowtype": "2.4.0",
+    "eslint-plugin-import": "1.12.0",
+    "eslint-plugin-jsx-a11y": "2.0.1",
+    "eslint-plugin-react": "6.0.0",
+    "flow": "0.2.3",
+    "flow-bin": "0.30.0"
+  }
+}
