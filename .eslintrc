@@ -4,6 +4,9 @@
     "flowtype"
   ],
   "extends": "airbnb",
+  "globals": {
+    "err": true
+  },
   "rules": {
     "no-param-reassign": [
       2,
@@ -19,6 +22,10 @@
     "new-cap": 0,
     "no-underscore-dangle": 0,
     "semi": 0,
+    "no-unused-vars": ["error",
+      {
+        "argsIgnorePattern": "^next"
+      }],
     "flowtype/define-flow-type": 1,
     "flowtype/require-parameter-type": 1,
     "flowtype/require-return-type": [
