@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 
 const app = require('../app')
 const debug = require('debug')('Questionnaire:server')
@@ -59,7 +58,7 @@ const onError = (error: any) => {
 
 server.listen(port)
 server.on('error', onError)
-server.on('listening', () => {
+server.on('listened', () => {
   const addr = server.address()
   const bind = typeof addr === 'string'
     ? `pipe ${addr}`
